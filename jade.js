@@ -1249,7 +1249,7 @@ Lexer.prototype = {
    */
   
   "extends": function() {
-    return this.scan(/^extends? +([^\n]+)/, 'extends');
+    return this.scan(/^extends +([^\n]+)/, 'extends');
   },
 
   /**
